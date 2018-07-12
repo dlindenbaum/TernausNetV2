@@ -5,7 +5,7 @@ Adaptation from https://github.com/mapillary/inplace_abn
 from functools import partial
 
 import torch.nn as nn
-from modules import ABN, InPlaceABNWrapper
+from TernausNetV2.modules import ABN, InPlaceABNWrapper
 
 
 def _get_norm_act(network_config):

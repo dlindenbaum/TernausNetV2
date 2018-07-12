@@ -5,7 +5,7 @@ Adaptation from https://github.com/mapillary/inplace_abn
 from collections import OrderedDict
 import torch.nn as nn
 
-from modules import IdentityResidualBlock, ABN, GlobalAvgPool2d
+from TernausNetV2.modules import IdentityResidualBlock, ABN, GlobalAvgPool2d
 
 
 class WiderResNet(nn.Module):
