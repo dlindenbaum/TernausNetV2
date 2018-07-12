@@ -12,8 +12,8 @@ with open('TernausNetV2/__init__.py') as f:
             continue
 
 
-with open('README.rst') as f:
-    readme = f.read()
+#with open('README.rst') as f:
+#    readme = f.read()
 
 # Runtime requirements.
 inst_reqs = []
@@ -26,7 +26,7 @@ extra_reqs = {
 setup(name='TernausNetV2',
       version=version,
       description=u"""Run basic Segmentation on  Dataset or arbitrary GeoTIffs""",
-      long_description=readme,
+      long_description='readme',
       classifiers=[
           'Intended Audience :: Information Technology',
           'Intended Audience :: Science/Research',
