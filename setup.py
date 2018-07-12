@@ -1,6 +1,7 @@
-import os
+import os,sys
 
 from setuptools import setup, find_packages
+sys.setdefaultencoding('utf-8')
 
 with open('TernausNetV2/__init__.py') as f:
     for line in f:
